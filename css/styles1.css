@@ -1,0 +1,173 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.vh-60{
+	height: 60vh;
+}
+.vh-40{
+	height: 40vh;
+}
+
+.bg{
+	
+	background-image: url('../img/academy-banner.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.section{
+		
+		display: flex;
+        justify-content: flex-end;
+		align-items: center;
+		height: 100vh;
+	}
+	.section div{
+     padding: 0 70px;
+     text-align: right;
+	}
+	.bg span{
+		display: block;
+	}
+.bg h2{
+font-size:50px ;
+font-weight: bold;
+margin-top: 20px;
+
+}
+.section2{
+	height: 100vh;
+	
+	display: flex;
+	align-items: center;
+	padding: 80px;
+}
+.para-container{
+	background-color: #202624;
+	color: white;
+	padding: 50px;
+	margin-left: -120px;
+	flex-grow: 1;
+}
+.para-container p{
+	font-size: 25px;
+	margin: 20px;
+	letter-spacing: 2px;
+	font-weight: bold;
+
+}
+.para-container p:before{
+	content: '{' ;
+		color: #b63a3a;
+
+
+}
+.para-container p:after{
+	content: '}';
+	color:#b63a3a ;
+}
+.img-fluid{
+	width: 100%;
+	height: auto;
+}
+
+.container p{
+	
+	font-size: 22px;
+	
+}
+.section4{
+background-image: url('../img/modulebg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+margin-bottom: 35px;
+}
+.section4-container{
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+
+}
+.section4-container div{
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius:20px;
+	color: white;
+	padding: 25px;
+	margin: 20px;
+	width: 20%;
+	text-align: center;
+}
+.section6{
+	display: flex;
+	height: 60vh;
+
+}
+.section6-img1{
+	background-image: url('../img/testsbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 45px;
+}
+.section6-img2{
+	background-image: url('../img/intrvwbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding: 45px;
+}
+.section6-img1 div{
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	padding: 110px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+	.section6-img2 div{
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	padding: 110px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	
+}
+.section6 p{
+	font-size: 21px;
+	color: #fff;
+}
+
+.section7 h2{
+	font-size: 35px;
+	font-weight: bold;
+	padding: 40px;
+}
+
+
+.section7-container div{
+	margin: 30px;
+}
+.section7-container div h3{
+	font-size: 20px;
+	padding-bottom: 10px;
+
+}
+.section7-container div p{
+	padding-top: 8px;
+	
+}
+/*media query starts*/
+@media only screen and (max-width: 576px){
+.section6{
+	display:block;
+	height:auto;
+}
+	.section4-container{
+	height: 100vh;
+	display: flex;
+	
+}
